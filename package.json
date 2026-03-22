@@ -1,0 +1,16 @@
+{
+  "name": "kraken-vouch-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "gif-encoder-2": "^1.0.5"
+  }
+}
